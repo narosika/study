@@ -1,9 +1,13 @@
 package ch06.sec07.exam02;
 
+import java.util.Scanner;
+
 public class KoreanExample {
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
 		//Korean 객체 생성
-		Korean k1 = new Korean("박자바", "011225-1234567");
+		Korean k1 = new Korean(sc.nextLine(), "011225-1234567");
 		//Korean 객체 데이터 읽기
 		System.out.println("k1.nation : " + k1.nation);
 		System.out.println("k1.name : " + k1.name);
