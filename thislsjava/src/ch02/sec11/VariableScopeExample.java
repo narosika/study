@@ -20,6 +20,7 @@ public class VariableScopeExample
 		int result = x + y;
 		System.out.println("x + y: " + result);
 		System.out.println();
+		scanner.close();
 	}
 
 }

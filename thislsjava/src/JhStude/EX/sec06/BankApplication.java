@@ -19,9 +19,24 @@ public class BankApplication {
 			
 			if(selectNum == 1)
 			{
-				a.newAccount();
+				System.out.println("-----------------");
+				System.out.println("계좌생성");
+				System.out.println("-----------------");
+
+				a.setSum();
 			}
+
 			
+			if(selectNum == 2)
+			{
+				System.out.println("-----------------");
+				System.out.println("계좌목록");
+				System.out.println("-----------------");
+
+				a.print();
+				
+			}
+
 			
 			
 			
